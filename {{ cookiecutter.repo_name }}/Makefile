@@ -6,7 +6,7 @@
 
 PROJECT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 PROJECT_NAME = {{ cookiecutter.repo_name }}
-RSCRIPT = {{ cookiecutter.r_home}}/Rscript.exe
+RSCRIPT = "{{ cookiecutter.r_home }}/Rscript.exe"
 
 #################################################################################
 # COMMANDS                                                                      #
