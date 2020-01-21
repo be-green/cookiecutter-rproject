@@ -1,0 +1,35 @@
+Package: {{ cookiecutter.repo_name }}
+Type: Package
+Title: {{ cookiecutter.repo_name }}
+Version: 0.3.0.9999
+Authors: {{ cookiecutter.author_name }}
+Maintainer: {{ cookiecutter.author_name }}
+Description: {{ cookiecutter.description }}
+License: {{cookiecutter.open_source_license}}
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+Depends: R (>= 3.6.0)
+Imports: 
+    magrittr,
+    data.table,
+    stringr,
+    ggplot2,
+    devtools,
+    remotes,
+    utils,
+    stats,
+    testthat,
+    knitr,
+    rmarkdown
+SystemRequirements: GNU make
+NeedsCompilation: yes
+RoxygenNote: 6.1.1
+Roxygen: list(markdown = TRUE)
+Suggests: 
+    knitr,
+    covr
+VignetteBuilder: knitr
+URL: {{ cookiecutter.github }}/{{ cookiecutter.repo_name }}
+BugReports:  {{ cookiecutter.github }}/{{ cookiecutter.repo_name }}/issues
+Language: en-US

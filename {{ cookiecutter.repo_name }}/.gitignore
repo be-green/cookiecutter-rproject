@@ -1,6 +1,23 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
+# R Project files
+.Rproj.user/*
+.Rhistory
+
+# ignore papers
+papers/
+
+# outputs from notebooks
+*.html
+*.pdf
+
+# data files excluded by default
+data/
+*.xlsx
+*.rda
+*.rds
+
+# exclude data from source control by default
+/data/
+
 
 # C extensions
 *.so
@@ -74,9 +91,6 @@ target/
 
 # Jupyter NB Checkpoints
 .ipynb_checkpoints/
-
-# exclude data from source control by default
-/data/
 
 # Mac OS-specific storage files
 .DS_Store
